@@ -1,4 +1,8 @@
+#include <iostream>
+
 int main(void) {
-    return 0;
+    int abc = 345;
+    std::cout << "-I- abc = " << abc << std::endl;
+    return abc;
 }
 
